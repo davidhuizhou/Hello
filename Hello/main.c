@@ -1,18 +1,46 @@
 //
-//  main.c
+//  test.c
 //  Hello
 //
-//  Created by Hui Zhou on 11/27/12.
-//  Copyright (c) 2012 Hui Zhou. All rights reserved.
+//  Created by Hui Zhou on 5/6/14.
+//  Copyright (c) 2014 Hui Zhou. All rights reserved.
 //
 
 #include <stdio.h>
+#include "test.h"
 
-int main(int argc, const char * argv[])
+int main()
 {
+    extern char line[];
 
-    // insert code here...
-    printf("Hello, World!\n");
+    /* Basic functions */
+    //testBasics();
+    
+    /* Bitwise testing */
+    testBitwise();
+    
+    /* String tests */
+    testStringFunctions();
+    
+    /* Search tests */
+    testSearchAndSort();
+    
+    /* Calculator tests */
+    testCalculator();
+  
+  
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
