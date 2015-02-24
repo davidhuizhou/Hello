@@ -18,6 +18,7 @@ void testCalculator();
 void printFahrenheitCelsiusTable();
 float fahrenheitToCelsius(float);
 int power(int, int);
+void copyInputOutput();
 void printLogestLine();
 
 

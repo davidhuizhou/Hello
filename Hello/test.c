@@ -36,7 +36,8 @@
 void testBasics(){
     printFahrenheitCelsiusTable();
     printf("4^6 = %d\n", power(4, 6));
-    printHistogram();
+    //copyInputOutput();
+    //printHistogram();
     printLogestLine();
 }
 
@@ -375,8 +376,8 @@ void printLogestLine() {
         if(len > max){
             max = len;
             copy(line, longest);
-            //reverse(line);
-            //printf("reversed line is - %s\n", line);
+            reverse(line);
+            printf("reversed line is - %s\n", line);
         }
     
     if(max > 0)
@@ -387,8 +388,14 @@ void printLogestLine() {
 
 
 
-
-
+/* Copy input to output */
+void copyInputOutput()
+{
+    printf("Enter characters\n");
+    int c;
+    while((c = getchar()) != EOF)
+        putchar(c);
+}
 
 
 

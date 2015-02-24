@@ -68,7 +68,7 @@ int getNextLine(){
                 putchar(' ');
                 ++blankCount;
             } else {
-                
+                //replace TAB # of blank space with TAB in line
                 i = i - TAB;
                 line[i] = '\t';
                 line[i + 1] = '\0';

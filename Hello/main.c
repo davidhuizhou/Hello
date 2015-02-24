@@ -14,19 +14,19 @@ int main()
     extern char line[];
 
     /* Basic functions */
-    //testBasics();
+    testBasics();
     
     /* Bitwise testing */
-    testBitwise();
+    //testBitwise();
     
     /* String tests */
-    testStringFunctions();
+    //testStringFunctions();
     
     /* Search tests */
-    testSearchAndSort();
+    //testSearchAndSort();
     
     /* Calculator tests */
-    testCalculator();
+    //testCalculator();
   
   
     return 0;
